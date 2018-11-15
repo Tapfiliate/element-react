@@ -14,7 +14,8 @@
     "lint": "eslint src libs site --quiet",
     "build": "cd build/site && webpack --progress",
     "prepubl¡sh": "./build/scripts/prepare.sh",
-    "postpublish": "./build/scripts/release.sh"
+    "postpublish": "./build/scripts/release.sh",
+    "postinstall": "./build/scripts/prepare.sh"
   },
   "repository": {
     "type": "git",
